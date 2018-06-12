@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96926E4220B9DCCF004232C2 /* LocationReached.png in Resources */ = {isa = PBXBuildFile; fileRef = 96926E4120B9DCCE004232C2 /* LocationReached.png */; };
+		96FEACBA20B9C25C00A80CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEACB920B9C25C00A80CFF /* AppDelegate.swift */; };
+		96FEACBC20B9C25C00A80CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEACBB20B9C25C00A80CFF /* ViewController.swift */; };
+		96FEACBF20B9C25C00A80CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FEACBD20B9C25C00A80CFF /* Main.storyboard */; };
+		96FEACC120B9C25E00A80CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FEACC020B9C25E00A80CFF /* Assets.xcassets */; };
+		96FEACC420B9C25E00A80CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FEACC220B9C25E00A80CFF /* LaunchScreen.storyboard */; };
+		96FEACCC20B9C33000A80CFF /* VKNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEACCB20B9C33000A80CFF /* VKNotificationService.swift */; };
+		96FEACCE20B9C8FB00A80CFF /* CoreLocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEACCD20B9C8FB00A80CFF /* CoreLocationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96926E4120B9DCCE004232C2 /* LocationReached.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationReached.png; sourceTree = "<group>"; };
+		96FEACB620B9C25C00A80CFF /* VKLocationNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKLocationNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FEACB920B9C25C00A80CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96FEACBB20B9C25C00A80CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96FEACBE20B9C25C00A80CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96FEACC020B9C25E00A80CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96FEACC320B9C25E00A80CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96FEACC520B9C25E00A80CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96FEACCB20B9C33000A80CFF /* VKNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKNotificationService.swift; sourceTree = "<group>"; };
+		96FEACCD20B9C8FB00A80CFF /* CoreLocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96FEACB320B9C25C00A80CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96FEACAD20B9C25C00A80CFF = {
+			isa = PBXGroup;
+			children = (
+				96FEACB820B9C25C00A80CFF /* VKLocationNotifications */,
+				96FEACB720B9C25C00A80CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96FEACB720B9C25C00A80CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96FEACB620B9C25C00A80CFF /* VKLocationNotifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96FEACB820B9C25C00A80CFF /* VKLocationNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				96FEACB920B9C25C00A80CFF /* AppDelegate.swift */,
+				96FEACBB20B9C25C00A80CFF /* ViewController.swift */,
+				96926E4120B9DCCE004232C2 /* LocationReached.png */,
+				96FEACCB20B9C33000A80CFF /* VKNotificationService.swift */,
+				96FEACCD20B9C8FB00A80CFF /* CoreLocationService.swift */,
+				96FEACBD20B9C25C00A80CFF /* Main.storyboard */,
+				96FEACC020B9C25E00A80CFF /* Assets.xcassets */,
+				96FEACC220B9C25E00A80CFF /* LaunchScreen.storyboard */,
+				96FEACC520B9C25E00A80CFF /* Info.plist */,
+			);
+			path = VKLocationNotifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96FEACB520B9C25C00A80CFF /* VKLocationNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96FEACC820B9C25E00A80CFF /* Build configuration list for PBXNativeTarget "VKLocationNotifications" */;
+			buildPhases = (
+				96FEACB220B9C25C00A80CFF /* Sources */,
+				96FEACB320B9C25C00A80CFF /* Frameworks */,
+				96FEACB420B9C25C00A80CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKLocationNotifications;
+			productName = VKLocationNotifications;
+			productReference = 96FEACB620B9C25C00A80CFF /* VKLocationNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96FEACAE20B9C25C00A80CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Vamshi Krishna";
+				TargetAttributes = {
+					96FEACB520B9C25C00A80CFF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 96FEACB120B9C25C00A80CFF /* Build configuration list for PBXProject "VKLocationNotifications" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96FEACAD20B9C25C00A80CFF;
+			productRefGroup = 96FEACB720B9C25C00A80CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96FEACB520B9C25C00A80CFF /* VKLocationNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96FEACB420B9C25C00A80CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FEACC420B9C25E00A80CFF /* LaunchScreen.storyboard in Resources */,
+				96FEACC120B9C25E00A80CFF /* Assets.xcassets in Resources */,
+				96FEACBF20B9C25C00A80CFF /* Main.storyboard in Resources */,
+				96926E4220B9DCCF004232C2 /* LocationReached.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96FEACB220B9C25C00A80CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96FEACCC20B9C33000A80CFF /* VKNotificationService.swift in Sources */,
+				96FEACBC20B9C25C00A80CFF /* ViewController.swift in Sources */,
+				96FEACBA20B9C25C00A80CFF /* AppDelegate.swift in Sources */,
+				96FEACCE20B9C8FB00A80CFF /* CoreLocationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96FEACBD20B9C25C00A80CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FEACBE20B9C25C00A80CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96FEACC220B9C25E00A80CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96FEACC320B9C25E00A80CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96FEACC620B9C25E00A80CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96FEACC720B9C25E00A80CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96FEACC920B9C25E00A80CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM743TR5P;
+				INFOPLIST_FILE = VKLocationNotifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamshi.VKLocationNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96FEACCA20B9C25E00A80CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4MM743TR5P;
+				INFOPLIST_FILE = VKLocationNotifications/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vamshi.VKLocationNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96FEACB120B9C25C00A80CFF /* Build configuration list for PBXProject "VKLocationNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FEACC620B9C25E00A80CFF /* Debug */,
+				96FEACC720B9C25E00A80CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96FEACC820B9C25E00A80CFF /* Build configuration list for PBXNativeTarget "VKLocationNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FEACC920B9C25E00A80CFF /* Debug */,
+				96FEACCA20B9C25E00A80CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96FEACAE20B9C25C00A80CFF /* Project object */;
+}
