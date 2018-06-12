@@ -19,3 +19,15 @@
 4) Move out of the initial location to around 300-400 metres and get back to initial location.
 
 5) That's it. You see the UILocalNotification pop ups as shown in the attached GIFs.
+
+# Addendums to info.plist :
+
+1) 
+
+Key : ``Privacy - Location Always and When In Use Usage Description``
+Value : ``Need your location to trigger notifications``
+
+2) 
+
+Key : ``Privacy - Location When In Use Usage Description``
+Value : ``Need your location to trigger notifications``
