@@ -24,10 +24,10 @@
 
 1) 
 
-Key : ``Privacy - Location Always and When In Use Usage Description``
+Key : ``Privacy - Location Always and When In Use Usage Description`` \n
 Value : ``Need your location to trigger notifications``
 
 2) 
 
-Key : ``Privacy - Location When In Use Usage Description``
+Key : ``Privacy - Location When In Use Usage Description`` \n
 Value : ``Need your location to trigger notifications``
